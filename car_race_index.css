@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Shizuru&display=swap');
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Moon Dance', cursive;
+    font-family: 'Shizuru', cursive;
+     overflow: hidden;
+    background-image: url("./backgrass.png");
+}
+#road {
+    width: 400px;
+    height: 100vh;
+    background-color: #444444;
+    margin:auto;
+    border: 4px dashed white;
+    border-top-style: none;
+    border-bottom-style: none;   
+    position: relative;
+    
+}
+
+.div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.userCar {
+    width: 40px;
+    height: 80px;
+    background-image: url(./car-145008_1280.png);
+    background-size:cover;
+    position: absolute;
+    bottom: 40px;
+    z-index: 999;
+}   
+
+.traffic {
+    width: 40px;
+    height: 80px;
+    background-size:cover;
+    position: absolute;
+    /* z-index: 999; */
+}   
+#centerRoadLine{
+    width: 10px;
+    height: 100px;
+    margin-left: 198px;
+    background-color: white;
+    position: absolute;
+}
